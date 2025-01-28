@@ -2,4 +2,4 @@
 
 ### Introduction
 
-This project aims to predict the probability of a flight being delayed by more than 15 minutes based on feature such as Month, DayOfWeek, CRSDepTime, Origin, and Distance. A Bayesian logistic regression model is used to estimate how these features influence the likelihood of a delay. The model utilizes MCMC sampling to estimate the relationships between the predictors and the delay. This approach demonstrates the value of Bayesian methods in providing both predictions and uncertainty estimates, offering useful insights for airlines to improve operations and customer service.
+This project uses Bayesian inference to predict flight delays at PIT airport in 2006. The model considers features like month, day of the week, scheduled departure time, origin, and distance. By using MCMC sampling, it estimates the probability of a flight being delayed by more than 15 minutes and provides insights into the factors influencing delays, potentially aiding airlines in improving operations and customer service.
